@@ -13,9 +13,6 @@
 [submodule "cppzmq/cppzmq"]
 	path = cppzmq/cppzmq
 	url = https://github.com/zeromq/cppzmq.git
-[submodule "boost/boost"]
-	path = boost/boost
-	url = https://github.com/boostorg/boost.git
 [submodule "rocksdb/rocksdb"]
 	path = rocksdb/rocksdb
 	url = https://github.com/facebook/rocksdb.git
@@ -28,3 +25,6 @@
 [submodule "czmq/czmq"]
 	path = czmq/czmq
 	url = https://github.com/zeromq/czmq.git
+[submodule "boost/boost"]
+	path = boost/boost
+	url = https://github.com/boostorg/boost.git
