@@ -13,9 +13,6 @@
 [submodule "cppzmq/cppzmq"]
 	path = cppzmq/cppzmq
 	url = https://github.com/zeromq/cppzmq.git
-[submodule "rocksdb/rocksdb"]
-	path = rocksdb/rocksdb
-	url = https://github.com/facebook/rocksdb.git
 [submodule "czmq/czmq"]
 	path = czmq/czmq
 	url = https://github.com/zeromq/czmq.git
@@ -25,3 +22,6 @@
 [submodule "snappy/snappy"]
 	path = snappy/snappy
 	url = https://github.com/google/snappy.git
+[submodule "rocksdb/rocksdb"]
+	path = rocksdb/rocksdb
+	url = https://github.com/facebook/rocksdb.git
