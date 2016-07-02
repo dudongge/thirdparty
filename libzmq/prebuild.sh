@@ -10,7 +10,4 @@ for file in lib{32,64}_{debug,release}; do
   rm -rf "$dir/$file" && ln -sf "$builddir/lib" "$dir/$file"
 done
 
-for file in $builddir/include/*.h; do
-  echo "$file"
-  ln -sf "$file" "$dir/"
-done 
+rm -f $dir/include && ln -sf $builddir/include $dir/include

@@ -15,7 +15,7 @@ for file in lib{32,64}_{debug,release}; do
   rm -rf "$dir/$file" && ln -sf "$builddir/lib" "$dir/$file"
 done
 
-ln -sf $builddir/include $dir/include
+rm -f $dir/include && ln -sf $builddir/include $dir/include
 
 export CFLAGS=$CFLAGS_OLD
 export LDFLAGS=$LDFLAGS_OLD

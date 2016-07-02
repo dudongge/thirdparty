@@ -10,4 +10,4 @@ for file in lib{32,64}_{debug,release}; do
   rm -rf "$dir/$file" && ln -sf "$builddir/lib" "$dir/$file"
 done
 
-ln -sf $builddir/include/gflags $dir/include
+rm -f $dir/include && ln -sf $builddir/include/gflags $dir/include
