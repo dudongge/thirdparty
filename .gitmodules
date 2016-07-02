@@ -16,15 +16,12 @@
 [submodule "rocksdb/rocksdb"]
 	path = rocksdb/rocksdb
 	url = https://github.com/facebook/rocksdb.git
-[submodule "snappy/snappy-c"]
-	path = snappy/snappy-c
-	url = https://github.com/andikleen/snappy-c.git
-[submodule "snappy/snappy"]
-	path = snappy/snappy
-	url = https://github.com/google/snappy.git
 [submodule "czmq/czmq"]
 	path = czmq/czmq
 	url = https://github.com/zeromq/czmq.git
 [submodule "boost/boost"]
 	path = boost/boost
 	url = https://github.com/boostorg/boost.git
+[submodule "snappy/snappy"]
+	path = snappy/snappy
+	url = https://github.com/google/snappy.git
