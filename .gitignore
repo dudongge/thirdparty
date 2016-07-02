@@ -1,0 +1,8 @@
+*/build
+*/*.h
+*/.hpp
+*/lib32_debug 
+*/lib32_release 
+*/lib64_debug 
+*/lib64_release
+include

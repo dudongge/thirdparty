@@ -1,2 +1,0 @@
-logging.h log_severity.h raw_logging.h stl_logging.h vlog_is_on.h
-*.h
