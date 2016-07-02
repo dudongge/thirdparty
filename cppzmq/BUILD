@@ -1,4 +1,4 @@
 cc_library(
-    name = 'cppzmq',
-    prebuilt = True,
+  name = 'cppzmq',
+  prebuilt = True,
 )

@@ -1,7 +1,7 @@
 cc_library(
   name = 'glog',
   prebuilt=True,
-  incs = './build/include',
+  export_incs = 'build/include',
   deps = [
     '#pthread',
     '//thirdparty/gflags:gflags'

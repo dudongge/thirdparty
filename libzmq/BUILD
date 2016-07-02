@@ -1,6 +1,6 @@
 cc_library(
   name = 'zmq',
   prebuilt = True,
-  incs='./build/include',
+  export_incs = 'build/include',
 )
 
